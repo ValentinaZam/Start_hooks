@@ -4,7 +4,7 @@ import SmallTitle from "../../common/typografy/smallTitle";
 import Divider from "../../common/divider";
 import TextField from "../../common/form/textField";
 import PropTypes from "prop-types";
-//Ntcn
+
 const FormComponent = ({ children }) => {
     const [data, setData] = useState({});
     useEffect(() => {
